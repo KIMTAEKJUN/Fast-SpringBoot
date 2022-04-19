@@ -1,0 +1,4 @@
+# 프로젝트 제외 경로
+/Todo-Server/.gradle/
+/Todo-Server/build/
+/Todo-Server/build/classes/java/main/
