@@ -11,7 +11,6 @@ import javax.persistence.*;
 @NoArgsConstructor
 @AllArgsConstructor
 public class TodoModel {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -19,6 +18,7 @@ public class TodoModel {
     @Column(nullable = false)
     private String title;
 
+    // order 키워드는 H2 데이터베이스에서 이미 예약어로 사용되기에 name을 새로 지정
     @Column(name = "todoOrder", nullable = false)
     private Long order;
 

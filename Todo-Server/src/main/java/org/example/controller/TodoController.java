@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
 @CrossOrigin
 @AllArgsConstructor
 @RestController
-@RequestMapping("/ ")
+@RequestMapping("/")
 public class TodoController {
 
     private final TodoService service;
@@ -50,7 +50,7 @@ public class TodoController {
 
     @GetMapping("{id}")
     public ResponseEntity<TodoResponse> readOne(@PathVariable Long id) {
-        log.info("READ");
+        log.info("READ ONE");
         TodoModel result = this.service.searchById(id);
         return ResponseEntity.ok(new TodoResponse(result));
     }
