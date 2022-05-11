@@ -2,6 +2,8 @@ package com.company.design;
 
 import com.company.design.aop.AopBrowser;
 import com.company.design.decorator.*;
+import com.company.design.observer.Button;
+import com.company.design.observer.IButtonListener;
 import com.company.design.proxy.BrowserProxy;
 import com.company.design.proxy.IBrowser;
 
@@ -57,7 +59,7 @@ public class Main {
             }
         );
         aopBrowser.show();
-        System.out.println("loading time : " + end.get()); */
+        System.out.println("loading time : " + end.get());
 
         ICar audi = new Audi(1000);
         audi.showPrice();
@@ -72,7 +74,19 @@ public class Main {
 
         // a5
         ICar audi5 = new A5(audi, "A5");
-        audi5.showPrice();
+        audi5.showPrice(); */
+
+        Button btn = new Button("버튼");
+        btn.addListener(new IButtonListener() {
+            @Override
+            public void clientEvent(String event) {
+                System.out.println(event);
+            }
+        });
+        btn.click("메세지 전달1");
+        btn.click("메세지 전달2");
+        btn.click("메세지 전달3");
+        btn.click("메세지 전달4");
     }
 
     // 콘센트
