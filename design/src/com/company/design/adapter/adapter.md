@@ -36,5 +36,7 @@
 ### DIP 의존관계 역전 원칙 (Dependency inversion principle)
 > 추상화된 것은 구체적인 것에 의존하면 안 된다. 구체적인 것이 추상화된 것에 의존해야 한다.
 
+<br>
+
 [SOLID 위키백과](https://ko.wikipedia.org/wiki/SOLID_(%EA%B0%9D%EC%B2%B4_%EC%A7%80%ED%96%A5_%EC%84%A4%EA%B3%84))  
 [5가지 원칙 정의](https://www.nextree.co.kr/p6960/)
