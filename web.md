@@ -41,7 +41,7 @@
 
 <br>
 
-# 다음의 인터페이스 일관성이 잘 지켜졌는지에 따라, REST를 잘 사용했는지 판단을 할 수 있다. 
+# 인터페이스 일관성이 잘 지켜졌는지에 따라, REST를 잘 사용했는지 판단을 할 수 있다. 
 
 ### 1. 자원의 식별 → 웹 기반의 REST 에서는 리소스 접근을 할 때 URL를 사용 합니다.  
     
@@ -75,8 +75,14 @@ Resource : user, 식별자 : 100 <br>
 > GET : https://foo.co.kr/user/100, 사용자의 정보 요청  <br>
 > POST : https://foo.co.kr/user    , 사용자 정보 생성  <br>
 > PUT : https://foo.co.kr/user    , 사용자 정보 생성 및 수정  <br>
-> DELETE : https://foo.co.kr/user/100, 사용자 정보 삭제
+> DELETE : https://foo.co.kr/user/100, 사용자 정보 삭제  <br><br>
+> 그 외에 담지 못 한 정보들은 URL의 메세지를 통하여, 표현 한다.
 
 <br>
 
-### 4. 애플리케이션 상태에 대한 엔진으로써 하이퍼미디어
+### 4. 애플리케이션(Application) 상태에 대한 엔진으로써 하이퍼미디어
+
+> REST API를 개발할 때 단순히 Client 요청에 대한 데이터만 응답 해주는 것이 아닌 관련된  
+> 리소스에 대한 Link 정보까지 같이 포함 되어져야 한다.  
+> <br>
+> 이러한 조건들을 잘 갖춘 경우 REST Ful 하다고 표현하고, 이를 REST API 라고 부릅니다.
