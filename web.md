@@ -104,7 +104,7 @@ URL은 URI 의 하위 개념 입니다.
 
 <br><br>
 
-# 1. URI 설계 원칙 (RFC-3986)
+## 1. URI 설계 원칙 (RFC-3986)
 
  + 슬래시 구분자 (/)는 계층 관계를 나타내는 데 사용한다.
     + https://fastcampus.co.kr/classes/java/curriculums/web-master
