@@ -10,6 +10,7 @@ import com.company.design.observer.Button;
 import com.company.design.observer.IButtonListener;
 import com.company.design.proxy.BrowserProxy;
 import com.company.design.proxy.IBrowser;
+import com.company.design.strategy.*;
 
 import java.util.concurrent.atomic.AtomicLong;
 
@@ -90,7 +91,7 @@ public class Main {
         btn.click("메세지 전달1");
         btn.click("메세지 전달2");
         btn.click("메세지 전달3");
-        btn.click("메세지 전달4"); */
+        btn.click("메세지 전달4");
 
         Ftp ftpClient = new Ftp("www.foo.co.kr", 22, "/home/etc");
         ftpClient.connect();
@@ -110,7 +111,29 @@ public class Main {
         sftpClient.write();
         sftpClient.read();
 
-        sftpClient.disConnect();
+        sftpClient.disConnect(); */
+
+        Encoder encoder = new Encoder();
+
+        // Base64
+        EncodingStrategy base64 = new Base64Strategy();
+
+        // Normal
+        EncodingStrategy normal = new NormalStrategy();
+
+        String message = "Hello Java";
+
+        encoder.setEncodingStrategy(base64);
+        String base64Result = encoder.getMessage(message);
+        System.out.println(base64Result);
+
+        encoder.setEncodingStrategy(normal);
+        String normalResult = encoder.getMessage(message);
+        System.out.println(normalResult);
+
+        encoder.setEncodingStrategy(new AppendStrategy());
+        String appendResult = encoder.getMessage(message);
+        System.out.println(appendResult);
     }
 
     // 콘센트
