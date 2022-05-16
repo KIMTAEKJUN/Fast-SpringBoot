@@ -26,7 +26,7 @@
 > HTML (HyperText Markup Language : 하이퍼미디어 포맷)  
 > XML을 바탕으로한 범용 문서 포맷 → 이를 이용하여 Chrome, Safari, Explorer에서 사용자가 알아보기 쉬운 형태로 표현
 
-<br>
+<br><br>
 
 # REST API
 
@@ -39,19 +39,17 @@
 > 6. 인터페이스 일관성 : 인터페이스의 일관성을 지키고, 아키텍처를 단순화시켜 작은 단위로 분리하여, <br> 클라이언트, 서버가 독립적으로 개선 될 수 있어야 한다. <br><br>
 > 7. Code on Demand (Optional) : 자바 애플릿, 자바스크립트, 플래시 등 특정한 기능을 <br> 서버로 부터 클라이언트가 전달받아 코드를 실행 할 수 있어야 한다.
 
-<br>
+<br><br>
 
 # 인터페이스 일관성이 잘 지켜졌는지에 따라, REST를 잘 사용했는지 판단을 할 수 있다. 
 
-### 1. 자원의 식별 → 웹 기반의 REST 에서는 리소스 접근을 할 때 URL를 사용 합니다.  
-    
+### 1. 자원의 식별 → 웹 기반의 REST 에서는 리소스 접근을 할 때 URI를 사용 합니다.
 > https://foo.co.kr/user/100  
 Resource : user, 식별자 : 100 <br>
 
 <br>
 
 ### 2. 메세지를 통한 리소스 조작 → 웹에서는 다양한 방식으로 데이터를 전달 할 수 있습니다.
-   
 > 그 중에서 가장 많이 사용하는 방식은 HTML, XML, JSON, TEXT 등이 있습니다.  
 > <br>
 > 이 중에서 어떠한 타입의 데이터인지를 알려주기 위해서 HTTP Header 부분에  
@@ -68,9 +66,8 @@ Resource : user, 식별자 : 100 <br>
 
 <br>
 
-### 3. 자기 서술적 메세지 → 요청 하는 데이터가 어떻게 처리 되어져야 하는지 충분한 데이터를 포함 할 수 있어야 한다.  
-   
-> HTTP 기반의 REST에서는 HTTP Method와 Header 정보, 그리고 URL의 포함되는 정보로 표현 할 수 있습니다.  
+### 3. 자기 서술적 메세지 → 요청 하는 데이터가 어떻게 처리 되어져야 하는지 충분한 데이터를 포함 할 수 있어야 한다.
+> HTTP 기반의 REST에서는 HTTP Method와 Header 정보, 그리고 URI의 포함되는 정보로 표현 할 수 있습니다.  
 > <br>
 > GET : https://foo.co.kr/user/100, 사용자의 정보 요청  <br>
 > POST : https://foo.co.kr/user    , 사용자 정보 생성  <br>
@@ -81,8 +78,46 @@ Resource : user, 식별자 : 100 <br>
 <br>
 
 ### 4. 애플리케이션(Application) 상태에 대한 엔진으로써 하이퍼미디어
-
 > REST API를 개발할 때 단순히 Client 요청에 대한 데이터만 응답 해주는 것이 아닌 관련된  
 > 리소스에 대한 Link 정보까지 같이 포함 되어져야 한다.  
 > <br>
 > 이러한 조건들을 잘 갖춘 경우 REST Ful 하다고 표현하고, 이를 REST API 라고 부릅니다.
+
+<br><br>
+
+# URI 설계 패턴
+
+### 1. URI (Uniform Resource Identifier)
+> 인터넷에서 특정 자원을 나타내는 주소 값, 해당 값은 유일 하다. (응답은 달라질 수 있다)  
+> 요청 : https://www.fastcampus.co.kr/resource/sample/1  
+> 응답 : fastcampus.pdf, fastcampus.docx
+
+<br>
+
+### 2. URL (Uniform Resource Locator)
+> 인터넷 상에서의 자원, 특징 파일이 어디에 위치하는지 식별 하는 주소  
+> 요청 : https://www.fastcampus.co.kr/fastcampus.pdf  
+
+<br>
+
+URL은 URI 의 하위 개념 입니다.
+
+# 1. URI 설계 원칙 (RFC-3986)
+
+ + 슬래시 구분자 (/)는 계층 관계를 나타내는 데 사용한다.
+    + https://fastcampus.co.kr/classes/java/curriculums/web-master
+
+<br>
+
+ + URI 마지막 문자는 (/)는 포함하지 않는다.
+   + https://fastcampus.co.kr/classes/java/curriculums/web-master/
+
+<br>
+   
+ + 하이픈 (-)은 URI 가독성을 높히는데 사용한다
+   + https://fastcampus.co.kr/classes/java/curriculums/web-master
+   
+<br>
+
+ + 밑줄 (_)은 사용하지 않는다.
+   + https://fastcampus.co.kr/classes/java/curriculums/web_master
