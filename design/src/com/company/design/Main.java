@@ -2,6 +2,10 @@ package com.company.design;
 
 import com.company.design.aop.AopBrowser;
 import com.company.design.decorator.*;
+import com.company.design.facade.Ftp;
+import com.company.design.facade.Reader;
+import com.company.design.facade.SftpClient;
+import com.company.design.facade.Writer;
 import com.company.design.observer.Button;
 import com.company.design.observer.IButtonListener;
 import com.company.design.proxy.BrowserProxy;
@@ -74,7 +78,7 @@ public class Main {
 
         // a5
         ICar audi5 = new A5(audi, "A5");
-        audi5.showPrice(); */
+        audi5.showPrice();
 
         Button btn = new Button("버튼");
         btn.addListener(new IButtonListener() {
@@ -86,7 +90,27 @@ public class Main {
         btn.click("메세지 전달1");
         btn.click("메세지 전달2");
         btn.click("메세지 전달3");
-        btn.click("메세지 전달4");
+        btn.click("메세지 전달4"); */
+
+        Ftp ftpClient = new Ftp("www.foo.co.kr", 22, "/home/etc");
+        ftpClient.connect();
+        ftpClient.moveDirectory();
+
+        Writer writer = new Writer("text.tmp");
+        writer.fileConnect();
+        writer.fileWrite();
+
+        Reader reader = new Reader("text.tmp");
+        reader.fileConnect();
+        reader.fileRead();
+
+        SftpClient sftpClient = new SftpClient("www.foo.co.kr", 22, "/home/etc", "text.tmp");
+        sftpClient.connect();
+
+        sftpClient.write();
+        sftpClient.read();
+
+        sftpClient.disConnect();
     }
 
     // 콘센트
