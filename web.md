@@ -200,3 +200,15 @@ URL은 URI 의 하위 개념 입니다.
  + 클라이언트 개발자 포탈 서브 도메인은 일관성 있게 만든다.
    + https://dev-fastcampus.co.kr
    + https://developer-fastcampus.co.kr
+
+<br><br>
+
+# HTTP Protocol
+
+### HTTP Protocol 이란 무엇인가 ?
+> HTTP (HyperText Transfer Protocol) 로 RFC 2616에서 규정된 Web에서 데이터를 주고 받는 프로토콜  
+> <br>
+> 이름에는 하이퍼텍스트 전송용 프로토콜로 정의되어 있지만 실제로는 HTML, XML, JSON,  
+> Image, Voice, Video, JavaScript, PDF 등 다양한 컴퓨터에서 다룰 수 있는 것은 모두 전송 할 수 있습니다.  
+> <br>
+> HTTP는 TCP를 기반으로 한 REST의 특징을 모두 구현하고 있는 Web기반의 프로토콜
