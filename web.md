@@ -28,7 +28,7 @@ XML을 바탕으로한 범용 문서 포맷 → 이를 이용하여 Chrome, Safa
 
 <br>
 
-# REST
+# REST API
 
 ### REST (Representational State Transfer : 자원의 상태 전달) - 네트워크 아키텍처
 1. Client, Server : 클라이언트와 서버가 서로 독립적으로 분리되어 있어야 한다.
