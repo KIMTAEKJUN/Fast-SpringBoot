@@ -1,4 +1,4 @@
-# 웹 개발 개론
+# 1. 웹 개발 개론
 
 ### 웹 이란 무엇인가?
 > (World Wide Web, WWW, W3C)는 인터넷에 연결된 컴퓨터를 통해 사람들이 정보를 공유할 수 있는 전 세계적인 정보 공간을 말한다.  
@@ -28,7 +28,7 @@
 
 <br><br>
 
-# REST API
+# 2. REST API
 
 ### REST (Representational State Transfer : 자원의 상태 전달) - 네트워크 아키텍처
 > 1. Client, Server : 클라이언트와 서버가 서로 독립적으로 분리되어 있어야 한다. <br><br>
@@ -85,7 +85,7 @@ Resource : user, 식별자 : 100 <br>
 
 <br><br>
 
-# URI 설계 패턴
+# 3. URI 설계 패턴
 
 ### 1. URI (Uniform Resource Identifier)
 > 인터넷에서 특정 자원을 나타내는 주소 값, 해당 값은 유일 하다. (응답은 달라질 수 있다)  
@@ -203,7 +203,7 @@ URL은 URI 의 하위 개념 입니다.
 
 <br><br>
 
-# HTTP Protocol
+# 4. HTTP Protocol
 
 ### HTTP Protocol 이란 무엇인가 ?
 > HTTP (HyperText Transfer Protocol) 로 RFC 2616에서 규정된 Web에서 데이터를 주고 받는 프로토콜  
