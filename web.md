@@ -215,7 +215,7 @@ URL은 URI 의 하위 개념 입니다.
 
 <br>
 
-### HTTP는 메세지를 받고 (Request) 받는 (Response) 형태의 통신 방법 입니다.
+### HTTP는 메세지를 받고 (Request) 받는 (Response) 형태의 통신 방법
 ![IMG](IMG/1.png)
 
 <br>
