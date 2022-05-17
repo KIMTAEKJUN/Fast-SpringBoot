@@ -215,19 +215,22 @@ URL은 URI 의 하위 개념 입니다.
 
 <br>
 
-#### HTTP는 메세지를 받고 (Request) 받는 (Response) 형태의 통신 방법 입니다.
+### HTTP는 메세지를 받고 (Request) 받는 (Response) 형태의 통신 방법 입니다.
 ![IMG](IMG/1.png)
 
 <br>
 
-#### HTTP의 요청을 특징하는 Method 8가지
+### HTTP의 요청을 특징하는 Method 8가지
  + REST를 구현하기 위한 인터페이스이니 알아둬야 합니다.
 ![IMG](IMG/2.png)
 
 <br>
 
-#### HTTP Status Code
+### HTTP Status Code
  + 응답의 상태를 나타내는 코드
 ![IMG](IMG/3.png)
+
+<br>
+
  + 자주 사용되는 코드
 ![IMG](IMG/4.png)
