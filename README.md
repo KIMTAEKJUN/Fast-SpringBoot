@@ -1,7 +1,7 @@
-# FAST_SPRING
+# Fast-SpringBoot
 
 <br/>
 
-> ## **강의보고 공부하기 ( SPRING )**
+> ## **강의보고 공부하기 ( SPRING BOOT )**
 
 <br/>
