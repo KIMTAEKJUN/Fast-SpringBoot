@@ -51,7 +51,7 @@
 
 <br>
 
-### 이번 강의에서 사용한 어노테이션(Annotation) 정리
+### 스프링 부트 기초 파트에서 사용한 어노테이션(Annotation) 정리
 > ![IMG](IMG/5.png)
 > 
 > ![IMG](IMG/6.png)
