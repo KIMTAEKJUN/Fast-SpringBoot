@@ -29,22 +29,23 @@ public class GetApiController {
 
     // Query Parameter를 받는 방법
 
+    // Map 사용
     // http://localhost:8080/api/get/query-param?user=steve&email=steve@gmail.com&age=36
     @GetMapping(path = "/query-param")
     public String queryParam(@RequestParam Map<String, String> queryParam) {
         StringBuilder sb = new StringBuilder();
 
-        queryParam.entrySet().forEach( entry -> {
-            System.out.println(entry.getKey());
-            System.out.println(entry.getValue());
+        queryParam.forEach((key, value) -> {
+            System.out.println(key);
+            System.out.println(value);
             System.out.println("\n");
 
-            sb.append(entry.getKey() + " = " + entry.getValue() + "\n");
+            sb.append(key + " = " + value + "\n");
         });
-
         return sb.toString();
     }
 
+    // RequestParam 사용
     @GetMapping(path = "/query-param02")
     public String queryParam02(
             @RequestParam String name,
@@ -58,6 +59,7 @@ public class GetApiController {
         return name + " " + email + " " + age;
     }
 
+    // 객체 만들어서 하기
     @GetMapping(path = "/query-param03")
     public String queryParam03(UserRequest userRequest) {
         System.out.println(userRequest.getName());
