@@ -9,7 +9,6 @@ public class DeleteApiController {
     public void delete(@PathVariable String userId, @RequestParam String account) {
         System.out.println(userId);
         System.out.println(account);
-
         // delete -> 리소스 삭제
     }
 }
