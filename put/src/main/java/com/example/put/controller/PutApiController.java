@@ -1,4 +1,4 @@
-package com.example.put.Controller;
+package com.example.put.controller;
 
 import com.example.put.dto.PostRequestDto;
 import org.springframework.web.bind.annotation.*;
