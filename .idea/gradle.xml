@@ -17,61 +17,58 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/delete" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spring-boot-start/src/delete" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/delete" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="delegatedBuild" value="true" />
-        <option name="testRunner" value="GRADLE" />
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/hello" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/hello" />
+            <option value="$PROJECT_DIR$/spring-boot-start/src/delete" />
           </set>
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/object-mapper" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spring-boot-start/src/hello" />
+        <option name="gradleJvm" value="17" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/object-mapper" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="delegatedBuild" value="true" />
-        <option name="testRunner" value="GRADLE" />
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/post" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/post" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="delegatedBuild" value="true" />
-        <option name="testRunner" value="GRADLE" />
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/put" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/put" />
+            <option value="$PROJECT_DIR$/spring-boot-start/src/hello" />
           </set>
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/response" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spring-boot-start/src/object-mapper" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/response" />
+            <option value="$PROJECT_DIR$/spring-boot-start/src/object-mapper" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spring-boot-start/src/post" />
+        <option name="gradleJvm" value="17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/spring-boot-start/src/post" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spring-boot-start/src/put" />
+        <option name="gradleJvm" value="17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/spring-boot-start/src/put" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spring-boot-start/src/response" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/spring-boot-start/src/response" />
           </set>
         </option>
       </GradleProjectSettings>
