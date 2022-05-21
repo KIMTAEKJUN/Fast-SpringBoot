@@ -17,7 +17,8 @@ public class PageController {
     @ResponseBody
     @GetMapping("/user")
     public User user() {
-        User user = new User();
+        // User user = new User();
+        var user = new User();
         user.setName("steve");
         user.setAddress("fastcampus");
         return user;
