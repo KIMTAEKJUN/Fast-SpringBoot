@@ -52,10 +52,10 @@
 <br>
 
 ### 스프링 부트 기초 파트에서 사용한 어노테이션(Annotation) 정리
-> ![IMG](IMG/5.png)
+> ![IMG](../../IMG/5.png)
 > 
-> ![IMG](IMG/6.png)
+> ![IMG](../../IMG/6.png)
 > 
-> ![IMG](IMG/7.png)
+> ![IMG](../../IMG/7.png)
 > 
-> ![IMG](IMG/8.png)
+> ![IMG](../../IMG/8.png)
