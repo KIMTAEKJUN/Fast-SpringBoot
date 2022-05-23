@@ -9,6 +9,7 @@
       <module name="FAST_SPRING.Todo-Server" target="17" />
       <module name="FAST_SPRING.Todo-Server.main" target="17" />
       <module name="FAST_SPRING.Todo-Server.test" target="17" />
+      <module name="spring-ioc" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

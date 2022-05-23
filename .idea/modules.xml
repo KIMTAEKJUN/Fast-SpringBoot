@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-middle/src/ioc/ioc.iml" filepath="$PROJECT_DIR$/spring-boot-middle/src/ioc/ioc.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-middle/spring-boot-middle.iml" filepath="$PROJECT_DIR$/spring-boot-middle/spring-boot-middle.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-start/spring-boot-start.iml" filepath="$PROJECT_DIR$/spring-boot-start/spring-boot-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-middle/src/spring-ioc/spring-ioc.iml" filepath="$PROJECT_DIR$/spring-boot-middle/src/spring-ioc/spring-ioc.iml" />
     </modules>
   </component>
 </project>
