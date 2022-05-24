@@ -5,7 +5,7 @@ public class Main {
         String url = "www.naver.com/books/it?page=10&size=20&name=spring-boot";
 
         // Base64 encoding
-        Encoder encoder = new Encoder(new Base64Encoder());
+        Encoder encoder = new Encoder(new UrlEncoder());
         String result = encoder.encode(url);
         System.out.println(result);
     }
