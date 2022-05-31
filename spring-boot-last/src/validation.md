@@ -37,7 +37,7 @@
 <br>
 
 ### Setting
-> 1. gradle dependencies
+> 1. gradle dependencies  
 > implementation("org.springframework.boot:spring-boot-starter-validation")  
 > 
 > 2. bean validation spec  
