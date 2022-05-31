@@ -33,3 +33,15 @@
 
 ### 여러 가지 어노테이션(Annotation)
 > ![IMG](../../IMG/14.png)
+
+<br>
+
+### Setting
+> 1. gradle dependencies
+> implementation("org.springframework.boot:spring-boot-starter-validation")  
+> 
+> 2. bean validation spec  
+> https://beanvalidation.org/2.0-jsr380/  
+> 
+> 3. 핸드폰번호 정규식  
+> "^\\d{2,3}-\\d{3,4}-\\d{4}$"
