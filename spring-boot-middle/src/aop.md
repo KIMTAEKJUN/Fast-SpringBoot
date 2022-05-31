@@ -18,5 +18,12 @@
 
 <br>
 
-### 스프링 부트에서 사용하는 주요 어노테이션(Annotation) 정리
+### 현재 강의에서 사용하는 주요 어노테이션(Annotation) 정리
 > ![IMG](../../IMG/11.png)
+
+<br>
+
+### 여러 가지 어노테이션(Annotation)
+> ![IMG](../../IMG/12.png)
+>
+> ![IMG](../../IMG/13.png)
