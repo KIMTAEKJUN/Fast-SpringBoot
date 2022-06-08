@@ -25,10 +25,10 @@ public class ApiController {
                 String message = objectError.getDefaultMessage();
 
                 System.out.println("filed : " + field.getField());
-                System.out.println(message);
+                System.out.println("message : " + message + "\n");
 
                 sb.append("field : " + field.getField());
-                sb.append("\nmessage : " + message);
+                sb.append("\nmessage : " + message + "\n\n");
             });
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(sb.toString());
         }
