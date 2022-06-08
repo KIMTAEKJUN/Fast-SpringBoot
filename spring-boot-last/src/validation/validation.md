@@ -32,7 +32,7 @@
 <br>
 
 ### 여러 가지 어노테이션(Annotation)
-> ![IMG](../../IMG/14.png)
+> ![IMG](../../../IMG/14.png)
 
 <br>
 
