@@ -13,7 +13,7 @@
 <br>
 
 ### 전체적인 구성도
-> ![IMG](../../IMG/16.png)
+> ![IMG](../../../IMG/16.png)
 > 
 > Filter -> Interceptor -> AOP 순으로 동작
 
@@ -27,4 +27,4 @@
 > 
 > 이를 선/후 처리 함으로써, Service business logic과 분리 시킨다.
 > 
-> ![IMG](../../IMG/17.png)
+> ![IMG](../../../IMG/17.png)
