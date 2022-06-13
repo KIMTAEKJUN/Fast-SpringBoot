@@ -5,6 +5,6 @@
 > 
 > 1. 에러 페이지  
 > 2. 4XX Error or 5XX Error  
-> 3. Client가 200 외에 처리를 하지 못 할 때는 200을 내려주고 별도의 에러 Message 전달  
-
+> 3. Client가 200 외에 처리를 하지 못 할 때는 200을 내려주고 별도의 에러 Message 전달
+> 
 > ![IMG](../../../IMG/15.png)
