@@ -1,4 +1,4 @@
-# IoC / DI
+w# IoC / DI
 
 ### IoC (Inversion of Control)
 > 스프링에서는 일반적인 Java 객체를 new로 생성하여 개발자가 관리 하는 이 아닌 Spring Container에 모두 맡긴다.  
