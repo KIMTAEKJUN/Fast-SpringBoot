@@ -28,3 +28,12 @@
 > 이를 선/후 처리 함으로써, Service business logic과 분리 시킨다.
 > 
 > ![IMG](../../../IMG/17.png)
+
+<br>
+
+# Lombok
+
+### Lombok 이란?
+> Lombok 이란 Java 라이브러리로 반복되는 getter, setter, toString 등의 메서드 작성 코드를 줄여주는 코드 다이어트 라이브러리다.
+> 
+> Lombok을 이용해서 작성한 코드는 컴파일 과정에서 Annotation을 이용해서 코드를 생성하고 실제로 컴파일된 결과물이 .class에 담기게 되는 것이다.
