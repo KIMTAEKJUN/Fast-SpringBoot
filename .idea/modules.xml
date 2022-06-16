@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/design-pattern/design-pattern.iml" filepath="$PROJECT_DIR$/design-pattern/design-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-middle/src/ioc/ioc.iml" filepath="$PROJECT_DIR$/spring-boot-middle/src/ioc/ioc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-to-server/server-to-server.iml" filepath="$PROJECT_DIR$/server-to-server/server-to-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-last/spring-boot-last.iml" filepath="$PROJECT_DIR$/spring-boot-last/spring-boot-last.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-middle/spring-boot-middle.iml" filepath="$PROJECT_DIR$/spring-boot-middle/spring-boot-middle.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-start/spring-boot-start.iml" filepath="$PROJECT_DIR$/spring-boot-start/spring-boot-start.iml" />
